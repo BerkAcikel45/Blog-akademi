@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+        {{hello}}
+    <ul>
+    {% for data in array %}
+        <li>
+            {{data}}
+        </li>
+    {%endfor%}
+    </ul>
+{% endblock %}
+
+
