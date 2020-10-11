@@ -36,5 +36,6 @@ urlpatterns = [
     # path('', include('home.urls')),
 
     path('about/', about1, name='about1'),
-    path('index/', index, name='index')
+    path('index/', index, name='index'),
+    path('faslkjfas')
 ]
